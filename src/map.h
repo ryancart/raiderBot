@@ -14,7 +14,9 @@ class MapCell;
 // Note you will need to add declarations for the height and width.
 // Add other methods and data as needed.
 class Map {
-  MapCell *cells[WIDTH][HEIGHT];
+    int WIDTH = 10;
+    int HEIGHT = 20;
+  //MapCell *cells[WIDTH][HEIGHT];
 public:
   // initialize empty map
   Map();
