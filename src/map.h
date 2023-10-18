@@ -23,7 +23,7 @@ public:
   // read the map from cin
   void load();
   // write the full map to cout
-  void write();
+  void write(int a, int b, int i);
 };
 
 #endif /* MAP_H_ */

@@ -6,7 +6,11 @@
 
 #include "cell.h"
 
-MapCell::MapCell(int x, int y, char type) : xLocation(), yLocation(), token() {};
+MapCell::MapCell(int x, int y, char type) {
+    this->xLocation = x;
+    this->yLocation = y;
+    this->token = type;
+};
 
 bool MapCell::hasPit() {
     return this->token == '#';
