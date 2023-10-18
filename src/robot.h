@@ -13,6 +13,9 @@ class Map;
 // A robot which lives on a map at a particular x and y coordinate.
 class Robot {
 public:
+    int startx;
+    int starty;
+
   Robot(Map *map, int startx, int starty);
   // display robot status in the form of "Robot at 6, 7 (1 gold)" to cout
   void displayStatus();
@@ -25,7 +28,10 @@ public:
   //   able to complete the list of directions
   bool move(std::string commands);
 private:
+    Map *mapPointer;
   // TODO: add data to track the robot's location and the map it occupies
 };
+
+
 
 #endif /* ROBOT_H_ */

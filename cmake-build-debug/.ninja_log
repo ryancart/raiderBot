@@ -4,3 +4,7 @@
 0	622	7192717790331400	CMakeFiles/raiderBot.dir/src/main.cpp.obj	831cae47d52575e3
 2	77	7192718587935506	CMakeFiles/raiderBot.dir/src/cell.cpp.obj	472b0d66f2cdc8df
 3	243	7192719064175842	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
+10	378	7193711350370102	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
+3	480	7193711351401667	CMakeFiles/raiderBot.dir/src/main.cpp.obj	831cae47d52575e3
+3	235	7193712387365960	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
+235	351	7193712388498136	raiderBot.exe	464fde6ace7db0d1
