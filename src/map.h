@@ -7,6 +7,8 @@
 #ifndef MAP_H_
 #define MAP_H_
 
+#include <string>
+
 // the following line (declaration) ensures do not to include cell.h
 class MapCell;
 
@@ -14,16 +16,16 @@ class MapCell;
 // Note you will need to add declarations for the height and width.
 // Add other methods and data as needed.
 class Map {
-    int WIDTH = 10;
-    int HEIGHT = 20;
-  //MapCell *cells[WIDTH][HEIGHT];
+    int WIDTH;
+    int HEIGHT;
+    MapCell *cells[WIDTH][HEIGHT];
 public:
   // initialize empty map
   Map();
   // read the map from cin
   void load();
   // write the full map to cout
-  void write(int a, int b, int i);
+  void write(std::string s);
 };
 
 #endif /* MAP_H_ */
