@@ -10,7 +10,7 @@
 #include <string>
 
 // the following line (declaration) ensures do not to include cell.h
-class MapCell {};
+class MapCell;
 
 // Track the area the robot in which the robot moves.
 // Note you will need to add declarations for the height and width.
