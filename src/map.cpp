@@ -8,25 +8,21 @@
 #include "string"
 #include "iostream"
 
-Map::Map() {
-
-}
+Map::Map() = default;
 
 void Map::load() {
-    std::string input_line = " ";
-
-    //std::cin;
+    std::string input_line;
+    getline(std::cin, input_line);
 
     while (std::cin){
-        getline(std::cin, input_line);
         this->write(input_line);
 
-        for(int a = 0; a < 22; ++a){
-            for(int b = 0; b < 12; ++b){
-                for(int i = 0; i < input_line.length(); ++i){
-                    if(input_line.at(0) != '+'){
-                        if(input_line.at(i) != '|'){
-                            this->[a - 1][b - 1] = input_line.at(i);
+        for(int h = 1; h < 11; ++h){
+            for(int w = 1; w < 21; ++w){
+                this->cells[w][h] = new MapCell(w, h, input_line.at(w));
+
+
+
                         }
                     }
                 }

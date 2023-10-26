@@ -10,11 +10,7 @@
 #include <string>
 
 // the following line (declaration) ensures do not to include cell.h
-class MapCell {
-    char content;
-    int posOnWidth;
-    int posOnHeight;
-};
+class MapCell {};
 
 // Track the area the robot in which the robot moves.
 // Note you will need to add declarations for the height and width.
@@ -22,7 +18,7 @@ class MapCell {
 class Map {
     static const int WIDTH = 20;
     static const int HEIGHT = 10;
-    MapCell *cells[WIDTH][HEIGHT];
+    MapCell *cells[WIDTH][HEIGHT]{};
 public:
   // initialize empty map
   Map();
