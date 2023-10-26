@@ -25,7 +25,7 @@ public:
   // read the map from cin
   void load();
   // write the full map to cout
-  void write(std::string s);
+  void write();
 };
 
 #endif /* MAP_H_ */

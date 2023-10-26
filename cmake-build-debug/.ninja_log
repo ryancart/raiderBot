@@ -1,12 +1,11 @@
 # ninja log v5
-23	199	7192717785864969	CMakeFiles/raiderBot.dir/src/map.cpp.obj	57ffadf0d771e6a5
-17	427	7192717788391619	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
-0	622	7192717790331400	CMakeFiles/raiderBot.dir/src/main.cpp.obj	831cae47d52575e3
-2	77	7192718587935506	CMakeFiles/raiderBot.dir/src/cell.cpp.obj	472b0d66f2cdc8df
-3	243	7192719064175842	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
-10	378	7193711350370102	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
-3	480	7193711351401667	CMakeFiles/raiderBot.dir/src/main.cpp.obj	831cae47d52575e3
-3	235	7193712387365960	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
-235	351	7193712388498136	raiderBot.exe	464fde6ace7db0d1
-10	120	7194340465928476	CMakeFiles/raiderBot.dir/src/cell.cpp.obj	472b0d66f2cdc8df
-21	426	7194340468792044	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
+0	120	7200381014570240	CMakeFiles/raiderBot.dir/src/cell.cpp.obj	472b0d66f2cdc8df
+21	332	7200381016756218	CMakeFiles/raiderBot.dir/src/robot.cpp.obj	f0e6189817be90b7
+16	396	7200382588729407	CMakeFiles/raiderBot.dir/src/map.cpp.obj	57ffadf0d771e6a5
+3	456	7200388719292971	CMakeFiles/raiderBot.dir/src/main.cpp.obj	831cae47d52575e3
+4	353	7200389779282347	CMakeFiles/raiderBot.dir/src/map.cpp.obj	57ffadf0d771e6a5
+353	491	7200389780617687	raiderBot.exe	464fde6ace7db0d1
+4	392	7200391498832653	CMakeFiles/raiderBot.dir/src/map.cpp.obj	57ffadf0d771e6a5
+393	517	7200391500037704	raiderBot.exe	464fde6ace7db0d1
+2	349	7200392211148120	CMakeFiles/raiderBot.dir/src/map.cpp.obj	57ffadf0d771e6a5
+350	467	7200392212278704	raiderBot.exe	464fde6ace7db0d1
