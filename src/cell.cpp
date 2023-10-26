@@ -33,9 +33,9 @@ char MapCell::display() {
 }
 
 void MapCell::enter() {
-    // do something about a robot being here
+    this->hasRobot = true;
 }
 
 void MapCell::vacate() {
-    // do something about the robot kicking rocks
+    this->hasRobot = false;
 }

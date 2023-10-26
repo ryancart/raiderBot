@@ -6,8 +6,9 @@
 
 #include "robot.h"
 
+
 Robot::Robot(Map *map, int startx, int starty) {
-    this->mapPointer = map;
+    this->mapPointer = ;
     this->startx = startx;
     this-> starty = starty;
 }
