@@ -18,7 +18,7 @@ class MapCell {};
 class Map {
     static const int WIDTH = 20;
     static const int HEIGHT = 10;
-    MapCell *cells[WIDTH][HEIGHT]{};
+    MapCell *cells[WIDTH][HEIGHT];
 public:
   // initialize empty map
   Map();
